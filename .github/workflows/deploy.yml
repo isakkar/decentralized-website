@@ -14,7 +14,7 @@ jobs:
       - name: Deploy to Pinata
         uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.4
         with:
-          pin-name: 'website'
+          pin-name: 'decentralized-website'
           path: './src'
           pinata-api-key: ${{ secrets.PINATA_API_KEY }}
           pinata-secret-api-key: ${{ secrets.PINATA_SECRET_API_KEY }}
